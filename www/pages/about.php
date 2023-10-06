@@ -1,23 +1,20 @@
-<?php include 'inc/_header.php' ?>
+<div class="max-w-none mx-auto prose">
 
-<div class="main max-w-none text-left">
+	<h1 class="section-title my-16">About</h1>
 
-	<h2 class="section-title my-8">About</h2>
-
-
-	<div class="quote-xl max-w-7xl mx-auto px-6">
-		<p>
+	<div class="max-w-7xl mx-auto px-6 text-center">
+		<p class="quote">
 			Highly composed, the VISUALLY RICH COLLAGES point out both the starkness
 			of war and yet – the ARTIST ALWAYS GIVES US SPACE around IMAGE or WORD
 			with the work, which I INTERPRET to BE a PLACE to HOPE.
 		</p>
-		<p class="by"><span class="font-bold">KATIE BLAKE</span>, artista, librera y escritora</p>
+		<p class="quote-by"><span class="font-bold">KATIE BLAKE</span>, artista, librera y escritora</p>
 	</div>
 
 
-	<div class="flex flex-row">
+	<div class="flex flex-row content-center">
 		<div class="basis-4/12 md:basis-5/12">
-			<figure class="pt-32"><img class="" src="img/lina_avila_by_berta_delgado.jpg"></figure>
+			<figure class="pt-32 max-w-xl"><img class="" src="img/lina_avila_by_berta_delgado.jpg"></figure>
 		</div>
 		<div class="basis-1/12 md:basis-1/12"></div>
 		<div class="basis-6/12 md:basis-5/12">
@@ -71,6 +68,3 @@
 	</div>
 
 </div>
-
-
-<?php include 'inc/_footer.php' ?>

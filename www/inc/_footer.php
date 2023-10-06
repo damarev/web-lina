@@ -1,3 +1,23 @@
+</main>
+
+
+<footer class="grid grid-cols-3 border-t border-neutral-800 text-center mt-8 py-8">
+  <div>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat']">Contact</h3>
+  </div>
+  <div>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat']">Navigate</h3>
+    <ul>
+      <li>
+        <a href="#">Section</a>
+        <a href="#">Section</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat']">Sígueme</h3>
+  </div>
+</footer>
 
   <!--Modal-->
   <div id="subscribe" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
@@ -31,14 +51,14 @@
 
     <!-- Javascript Code -->
     <script>
-    var menu = document.getElementById('menu');
-    function toggleMenu() {
-        menu.classList.toggle('hidden');
-    }
 
-    var btnMenu = document.getElementById('btn-menu');
+    var btnMenu = document.getElementById('btn-toggle-nav');
     btnMenu.addEventListener("click", function() {
-        btnMenu.classList.toggle('open');
+      var hasVScroll = $('body').height() > $(window).height();
+      $('body').toggleClass('menu-open')
+      $('body').toggleClass('has-scroll', hasVScroll)
+
+      // console.log("menu-open = ", $('body').hasClass('menu-open'),"has scroll = ", hasVScroll )
     });
 
 

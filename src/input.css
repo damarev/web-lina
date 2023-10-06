@@ -8,24 +8,30 @@
   --secondary: #5a6850;
 }
 
+@layer base {
+  body {
+    @apply font-sans bg-[color:var(--bg-color)] overflow-x-hidden text-[#374151]
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif
+  }
+  a {
+    @apply underline transition-colors ease-in-out
+    hover:text-[color:var(--secondary)] hover:no-underline
+  }
+}
+
+
 @layer components {
 
-  body {
-    @apply font-['Raleway'] bg-[color:var(--bg-color)]
-  }
-
-  .main {
-    @apply mx-auto prose text-center;
-  }
-
   .link {
-    @apply px-3 py-2 border-b border-black no-underline uppercase tracking-[.25em] transition-all ease-in-out
-    hover:tracking-[.2em] hover:text-[color:var(--secondary)] hover:border-[color:var(--secondary)]
+    @apply px-3 py-2 border-b border-black no-underline uppercase tracking-[.2em] transition-all ease-in-out
+    hover:tracking-[.25em] hover:text-[color:var(--secondary)] hover:border-[color:var(--secondary)]
   }
 
-  .btn {
+  .btn-subscribe {
     font-family: 'Montserrat';
-    @apply rounded-[2px] bg-transparent border-2 border-neutral-800 hover:text-white text-neutral-800
+    @apply rounded-sm border-2 bg-white/20 border-neutral-800 hover:text-white text-neutral-800
     hover:bg-neutral-800 py-1 px-6 tracking-widest text-sm float-right mr-4 mt-3 ease-in transition-colors;
   }
 
@@ -33,153 +39,131 @@
     @apply font-['Montserrat'] text-center uppercase text-xl tracking-[.2em] font-normal;
   }
 
-  .quote-xl {
-    font-family:'Cormorant Garamond';
-    @apply  text-center text-3xl my-5 font-normal tracking-widest flex flex-col gap-4
-
+  .quote {
+    @apply font-serif text-3xl font-normal tracking-widest leading-snug
     /* style=" font-size:2.5em; line-height:125%;" class="text-center" */
   }
-  .quote-xl > * {
-    @apply m-0
-  }
 
-  .quote-xl .by {
+  .quote-by {
     @apply font-['Montserrat'] text-lg tracking-normal
-  }
-
-  #proyectos  {
-    font-family:'Cormorant Garamond';
-  }
-
-  #proyectos li + li::before {
-    content: "/";
-    @apply pr-4
   }
 
   .section-subtitle {
     @apply text-3xl text-center uppercase
   }
-
-  .menu-desktop a {
-    @apply no-underline text-black opacity-70 hover:opacity-100 duration-300 border-b border-transparent hover:border-neutral-600 hover:normal-case;
-  }
-
-  .menu-desktop a.selected {
-    @apply border-neutral-800
-  }
-}
-
-
-.main-exposiciones > p {
-  @apply my-3
 }
 
 
 
-h1,h2,h3,h4,h5,h6 {font-family: 'Cormorant Garamond';}
-
-.menu-desktop {font-family: 'Cormorant Garamond';}
-
-.btn2 {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    top: -16px;
-    left: 0px;
-    z-index: 2000;
-    scale:.4;
+.btn-toggle-nav {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -16px;
+  left: 0px;
+  z-index: 2000;
+  scale:.4;
 }
 
-.btn2:hover {
-    cursor: pointer;
-}
-.btn2 .icon {
-    transition-duration: 0.2s;
-    background-color: black;
-    position: absolute;
-    height: 4px;
-    width: 90px;
-    top: 40px;
+.btn-toggle-nav .icon {
+  transition-duration: 0.2s;
+  background-color: black;
+  position: absolute;
+  height: 4px;
+  width: 90px;
+  top: 40px;
 }
 
-.btn2 .icon:before{
-    transition-duration: 0.2s;
-    background-color: black;
-    position: absolute;
-    height: 4px;
-    width: 90px;
-    top: -20px;
-    content: "";
+.btn-toggle-nav .icon:before{
+  transition-duration: 0.2s;
+  background-color: black;
+  position: absolute;
+  height: 4px;
+  width: 90px;
+  top: -20px;
+  content: "";
 }
-.btn2 .icon:after{
-    transition-duration: 0.2s;
-    background-color: black;
-    position: absolute;
-    height: 4px;
-    width: 90px;
-    top: 20px;
-    content: "";
-}
-
-.btn2.open .icon{
-    width: 0px;
+.btn-toggle-nav .icon:after{
+  transition-duration: 0.2s;
+  background-color: black;
+  position: absolute;
+  height: 4px;
+  width: 90px;
+  top: 20px;
+  content: "";
 }
 
-.btn2.open .icon:before{
-    transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
+body.menu-open .btn-toggle-nav .icon{
+  width: 0px;
 }
 
-.btn2.open .icon:after{
-    transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
+body.menu-open .btn-toggle-nav .icon:before{
+  transform: rotateZ(45deg) scaleX(1.25) translate(13px, 13px);
+}
+
+body.menu-open .btn-toggle-nav .icon:after{
+  transform: rotateZ(-45deg) scaleX(1.25) translate(12px, -12px);
 }
 
 
+.main-nav {
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: height 0.25s ease;
+  width: 100vw;
+}
 
-.btn2.open ~ .menu-desktop {
-    display: block;
-    height: 100vh;
+.main-nav > ul {
+  width: 100vw;
+  background-color: #DDD;
+}
+
+.main-nav a {
+  @apply no-underline text-black opacity-70 hover:opacity-100 duration-300 border-b border-transparent hover:border-neutral-600 hover:normal-case;
+}
+
+.menu-image {
+  height: 0;
+  display: none;
+  position: fixed;
+  height: 100vh;
+  background-color: #CCC;
+  transition: top 0.25s ease;
+  @apply top-[100vh] w-1/2 left-1/2;
 }
 
 
-.menu-desktop {
-    height: 0;
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    top: 0;
-    transition: height .25s ease;
-    width: 100vw;
-    z-index: 1400;
-
+body.menu-open {
+  @apply overflow-hidden
+}
+body.menu-open.has-scroll {
+  @apply pr-[15px]
+}
+body.menu-open.has-scroll #header {
+  @apply pr-[15px]
 }
 
-.menu-desktop > ul {
-    width: 100vw;
-    background-color: #DDD;
+body.menu-open .main-nav {
+  display: block;
+  height: 100vh;
 }
 
- div.alt {
-    display: none;
-     position: fixed;
-    height: 100vh;
-    background-color: #CCC;
-    transition: top .25s ease;
-}
-
-.btn2.open ~ div.alt {
-     top: 0%;
+body.menu-open div.menu-image {
+  top: 0%;
 }
 
 @media (min-width: 1024px) {
-    div.alt {
-        display: block;
-    }
+  div.menu-image {
+    display: block;
+  }
 
-    .menu-desktop > ul {
-        width: 50vw;
-    }
+  .main-nav > ul {
+    width: 50vw;
+  }
 }
-
 
 
 .modal {
@@ -190,9 +174,51 @@ body.modal-active {
   overflow-y: visible !important;
 }
 
+#proyectos li {
+  @apply relative inline-block pr-20
+}
 
+#proyectos li::before {
+  content: "/";
+  position: absolute;
+  right: 24px;
+  @apply inline-block
+}
 
+#proyectos li:last-child:before {
+  content: "";
+  @apply inline-block
+}
 
+#proyectos li a::after{
+  content: '';
+  display: block;
+  transform: scaleX(0);
+  border-bottom: 1px solid var(--secondary);
+  transition: all 0.3s ease-in-out;
+}
+#proyectos li a:hover::after{
+  transform: scaleX(1);
+}
+
+@media (max-width: 767px) {
+  #proyectos li {
+    @apply p-0
+  }
+  #proyectos li::before {
+    content:"";
+  }
+}
+
+.year {
+  @apply relative mb-8 text-left
+}
+.year > p:first-child{
+  @apply font-bold absolute !m-0 text-[1.1em] -top-[3px]
+}
+.year > p {
+  @apply ml-20 mt-0 mb-3
+}
 
 
 

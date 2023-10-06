@@ -1,8 +1,6 @@
-<?php include 'inc/_header.php' ?>
+<div class="max-w-3xl mx-auto prose text-center">
 
-<div class="main max-w-3xl">
-
-	<h2 class="section-title">Publicaciones</h2>
+	<h2 class="section-title my-16">Publicaciones</h2>
 
 	<p><em><strong>NU Magazine</strong></em>, Ed. La belle Cicatrice, revista nº2, febrero 2022. <a href="https://files.cargocollective.com/710810/nu_two-1.pdf" target="_blank">Descárgala aquí</a>.</p>
 	<p><em><strong>Hope, 2021 Exhibition Highlithgs: Celebrating analogue, digital and mixed media collage</strong></em><strong>, </strong>Ed. Fragmented Collective. Escocia. 2021.</p>
@@ -21,6 +19,3 @@
 	<p><strong>Un mundo feliz, </strong><em><strong>BASTARD ART REVIEW</strong></em>, Ed. B oldizine &amp; B oldbooks. Madrid. 2018</p>
 
 </div>
-
-
-<?php include 'inc/_footer.php' ?>

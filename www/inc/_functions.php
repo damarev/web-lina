@@ -1,11 +1,11 @@
 <?php
 
-$menuItems = [
-	'index' => 'Home',
+$routes = [
+	'home' => 'Home',
 	'about' => 'About',
 	'proyectos' => 'Proyectos',
 	'exposiciones' => 'Exposiciones',
-	'festivales' => 'Ferias y Festivales',
+	'ferias-y-festivales' => 'Ferias y Festivales',
 	'menciones' => 'Menciones y reconocimientos',
 	'publicaciones' => 'Publicaciones',
 	// 'talleres' => 'Talleres',
@@ -13,42 +13,44 @@ $menuItems = [
 ];
 
 $proyectos = [
-	"5cm-s" => ["5cm/s", "5cm-s-lina-avila.jpg"],
-	"a-lo-lejos-huele-a-mar" => ["A lo lejos huele a mar", "a-lo-lejos-huele-a-mar-lina-avila.jpg"],
-	"abrazar" => ["Abraza", "abrazar_lina_avila.jpg"],
-	"amar-tiempo-perdido" => ["Amar tiempo perdido", "amar-tiempo-perdido-lina-avila.jpg"],
-	"antifemina" => ["Antifémina", "antifemina-lina-avila.jpg"],
-	"balada-melancolica" => ["Balada Melancólica", "balada-melancolica-lina-avila.jpg"],
-	"balada-otono" => ["Balada de otoño", "balada-otono-lina-avila.jpg"],
-	"cartas-desde-america" => ["Cartas desde América", "cartas-desde-america-lina-avila.jpg"],
-	"casa" => ["Casa", "casa_lina_avila.jpg"],
-	"cuatro-elementos" => ["Cuatro elementos", "cuatro-elementos-lina-avila.jpg"],
-	"difficult-loves" => ["Difficult loves", "difficult-loves-lina-avila.jpg"],
-	"el-telart" => ["El Telart", "el-telart-lina-avila.jpg"],
-	"entrelineas" => ["Entre líneas", "entrelineas-lina-avila.jpg"],
+	"el-telart" => ["El Telart", "/img/p/el-telart-lina-avila.jpg"],
+	"amar-en-tiempo-perdido" => ["Amar en tiempo perdido", "/img/p/amar-tiempo-perdido-lina-avila.jpg"],
+	"una-balada-melancolica" => ["Balada melancólica", "/img/p/balada-melancolica-lina-avila.jpg"],
+	"5cm-s" => ["5cm/s", "/img/p/5cm-s-lina-avila.jpg"],
+	"los-4-elementos" => ["Los 4 elementos", "/img/p/cuatro-elementos-lina-avila.jpg"],
+	"difficult-loves" => ["Difficult loves", "/img/p/difficult-loves-lina-avila.jpg"],
+	"cartas-desde-america" => ["Cartas desde América", "/img/p/cartas-desde-america-lina-avila.jpg"],
+	"entrelineas" => ["Entre líneas", "/img/p/entrelineas-lina-avila.jpg"],
+	"antifemina" => ["Antifémina", "/img/p/antifemina-lina-avila.jpg"],
+
+	// "a-lo-lejos-huele-a-mar" => ["A lo lejos huele a mar", "a-lo-lejos-huele-a-mar-lina-avila.jpg"],
+	// "abrazar" => ["Abraza", "abrazar_lina_avila.jpg"],
+	// "balada-otono" => ["Balada de otoño", "balada-otono-lina-avila.jpg"],
+	// "casa" => ["Casa", "casa_lina_avila.jpg"],
 ];
 
 
-$page = pathinfo($_SERVER['SCRIPT_FILENAME'], PATHINFO_FILENAME);
+function getRouteFromPath($path)
+{
+    $path = ltrim($path, '/');
+    if($path == '') return 'home';
+    return $path;
+}
 
 function route($slug)
 {
-    return "{$slug}.php";
+	if($slug == 'home') return '/';
+    return "/{$slug}";
 }
 
-function is_current($slug)
+function is_current_page($slug)
 {
-	global $page;
-    return $page == $slug;
+	global $route;
+    return $route === $slug;
 }
 
-function render_is_current($slug)
+function get_page_title()
 {
-    echo is_current($slug) ? 'selected' : '';
-}
-
-function getPageTitle()
-{
-	global $page, $menuItems;
-    return $menuItems[$page];
+	global $route, $routes;
+    return $routes[$route] . ' - Lina Ávila';
 }
