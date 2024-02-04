@@ -1,4 +1,18 @@
-<div class="max-w-4xl mx-auto px-5 prose">
+<div class="flex items-center my-16">
+	<div class="max-w-xs hidden sm:block relative">
+		<p class="relative -top-5"><img src="/img/exposiciones/oyeme-con-los-ojos-lina-avila.jpg" alt=""></p>
+		<p class="absolute -right-5" style="max-width:58%; top:65%;"><img src="/img/exposiciones/home-lina-avila.jpg" alt=""></p>
+	</div>
+	<div class="grow mx-8 text-center">
+		<h2 class="quote text-center text-5xl uppercase">Exposiciones</h2>
+	</div>
+	<div class="max-w-xs hidden sm:block">
+		<span class="relative top-10"><img src="/img/exposiciones/stellar-couple-lina-avila.jpg" alt=""></span>
+	</div>
+</div>
+
+
+<div class="max-w-3xl mx-auto px-5 prose">
 
 	<h2 class="section-title my-16">Exposiciones Individuales</h2>
 

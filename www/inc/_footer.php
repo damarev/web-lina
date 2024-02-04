@@ -3,19 +3,28 @@
 
 <footer class="grid grid-cols-3 border-t border-neutral-800 text-center mt-8 py-8">
   <div>
-    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat']">Contact</h3>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Contact</h3>
+    <p class="flex gap-3 justify-center">
+      <a href="javascript:window.location.href=atob('<?= base64_encode("mailto:collagerepublic@gmail.com") ?>')" class="transition duration-300"><?php echo svg('email', 'w-10 h-10'); ?></a>
+    </p>
   </div>
   <div>
-    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat']">Navigate</h3>
-    <ul>
-      <li>
-        <a href="#">Section</a>
-        <a href="#">Section</a>
-      </li>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Navigate</h3>
+    <ul class="flex flex-wrap gap-3 justify-center divide-x divide-gray-400">
+      <?php foreach ($routes as $key => $value): ?>
+          <li class="pl-3">
+              <a href="<?php echo route($key) ?>" class="whitespace-nowrap no-underline hover:underline"><?php echo $value[0] ?></a>
+          </li>
+      <?php endforeach; ?>
     </ul>
   </div>
   <div>
-    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat']">Sígueme</h3>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Sígueme</h3>
+    <p class="flex gap-3 justify-center">
+      <a href="https://www.instagram.com/collagerepublic/" class="transition duration-300"><?php echo svg('instagram', 'w-8 h-8'); ?></a>
+      <a href="https://es.linkedin.com/in/lina-%C3%A1vila-serrano-944b83159" class="transition duration-300"><?php echo svg('linkedin', 'w-8 h-8'); ?></a>
+      <a href="https://vimeo.com/user86699386" class="transition duration-300"><?php echo svg('vimeo', 'w-8 h-8'); ?></a>
+    </p>
   </div>
 </footer>
 

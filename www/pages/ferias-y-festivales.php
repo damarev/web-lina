@@ -1,7 +1,15 @@
 <div class="flex items-center my-16">
-	<div class="max-w-xs relative -top-5"><img src="img/collage-clouds-Lina-Avila.jpg" alt=""></div>
-	<h2 class="grow mx-5 text-center"><span class="quote text-center text-5xl uppercase">Ferias<br><span class="text-4xl">y</span><br>Festivales</h2>
-	<div class="max-w-xs relative top-5"><img src="img/collage-poetico-Lina-Avila.jpg" alt=""></div>
+	<div class="max-w-xs hidden sm:block relative -top-5"><img src="/img/ferias-y-festivales/collage-clouds-Lina-Avila.jpg" alt=""></div>
+	<div class="grow mx-8 text-center">
+		<h2 class="quote text-center text-5xl uppercase">
+			Ferias
+			<br>
+			<span class="lowercase italic relative -top-2">y</span>
+			<br>
+			Festivales
+		</h2>
+	</div>
+	<div class="max-w-xs hidden sm:block relative top-5"><img src="/img/ferias-y-festivales/collage-poetico-Lina-Avila.jpg" alt=""></div>
 </div>
 
 
@@ -56,7 +64,7 @@
 	</div>
 
 	<div class="year">
-		<p>2015 | 13</p>
+		<p>2015 <br> 2014 <br> 2013</p>
 		<p>Maratón de Collage. Madrid.</p>
 	</div>
 

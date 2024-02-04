@@ -1,0 +1,102 @@
+[
+  {
+    "txt": "FOTO: LETICIA IZREGO",
+    "dir": "about",
+    "imgs": [
+      "lina-avila-by-leticia_izrego.jpg",
+      "artist-lina-avila-by-leticia_izrego.jpg"
+    ],
+    "pos": "TL:V"
+  },
+  {
+    "txt": "FOTO: LETICIA IZREGO",
+    "dir": "proyectos/el-hilo-de-la-memoria",
+    "imgs": ["12-hilo-de-memoria.jpg", "13-hilo-de-memoria.jpg"],
+    "pos": "BR:H"
+  },
+  {
+    "txt": "FOTO: BERTA DELGADO",
+    "dir": "proyectos/5-cm-s",
+    "imgs": ["1-5cm-s.jpg", "3-5cm-s.jpg", "6-5cm-s.jpg"],
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: BERTA DELGADO",
+    "dir": "proyectos/5-cm-s",
+    "imgs": ["2-5cm-s.jpg"],
+    "color": "GREY",
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: WHITE LAB",
+    "dir": "proyectos/5-cm-s",
+    "imgs": ["7-5cm-s.jpg"],
+    "color": "GREY",
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: WHITE LAB",
+    "color": "GREY",
+    "dir": "proyectos/5-cm-s",
+    "imgs": ["8-5cm-s.jpg", "11-5cm-s.jpg"],
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: VARINIA FUICA",
+    "dir": "proyectos/5-cm-s",
+    "imgs": ["9-5cm-s.jpg"],
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: VARINIA FUICA",
+    "dir": "proyectos/5-cm-s",
+    "imgs": ["10-5cm-s.jpg"],
+    "color": "GREY",
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: JUANRI FERNÁNDEZ",
+    "dir": "proyectos/en-conflicto",
+    "imgs": [
+      "4-en-conflicto.jpg",
+      "5-en-conflicto.jpg",
+      "11-en-conflicto.jpg"
+    ],
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: JUANRI FERNÁNDEZ",
+    "dir": "proyectos/en-conflicto",
+    "imgs": [
+      "3-en-conflicto.jpg",
+      "9-en-conflicto.jpg"
+    ],
+    "color": "GREY",
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: MÓNICA y DAVID ALBURQUERQUE",
+    "dir": "proyectos/en-conflicto",
+    "imgs": [
+      "7-en-conflicto.jpg",
+      "13-en-conflicto.jpg"
+    ],
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: MÓNICA y DAVID ALBURQUERQUE",
+    "dir": "proyectos/en-conflicto",
+    "imgs": [
+      "14-en-conflicto.jpg"
+    ],
+    "color": "GREY",
+    "pos": "BL:V"
+  },
+  {
+    "txt": "FOTO: LUCILA BODELÓN Y ANA B. ROMERO",
+    "dir": "proyectos/en-conflicto",
+    "imgs": ["12-en-conflicto.jpg"],
+    "color": "GREY",
+    "pos": "BL:V"
+  }
+]

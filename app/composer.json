@@ -1,0 +1,11 @@
+{
+    "require": {
+        "ghostff/php-text-to-image": "^1.0",
+        "spatie/image-optimizer": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damarev\\Caption\\": "src/"
+        }
+    }
+}
