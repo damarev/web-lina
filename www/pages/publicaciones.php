@@ -12,7 +12,7 @@
 	</div>
 </div>
 
-<div class="max-w-3xl mx-auto prose px-6">
+<div class="max-w-3xl mx-auto px-6">
 
 	<ul class="[&>li]:my-4 list-[circle] pl-4 marker:text-gray-500 leading-normal">
 		<li><em><strong>NU Magazine</strong></em>, Ed. La belle Cicatrice, revista nº2, febrero 2022. <a href="https://files.cargocollective.com/710810/nu_two-1.pdf" target="_blank">Descárgala aquí</a>.</li>

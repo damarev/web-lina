@@ -9,7 +9,7 @@ $routes = [
 	'menciones' => ['Menciones'],
 	'reconocimientos' => ['Reconocimientos'],
 	'publicaciones' => ['Publicaciones'],
-	// 'talleres' => ['Talleres'],
+	'talleres' => ['Talleres'],
 	'contacto' => ['Contacto'],
 ];
 

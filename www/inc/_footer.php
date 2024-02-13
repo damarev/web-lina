@@ -1,14 +1,8 @@
 </main>
 
 
-<footer class="grid grid-cols-3 border-t border-neutral-800 text-center mt-8 py-8">
-  <div>
-    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Contact</h3>
-    <p class="flex gap-3 justify-center">
-      <a href="javascript:window.location.href=atob('<?= base64_encode("mailto:collagerepublic@gmail.com") ?>')" class="transition duration-300"><?php echo svg('email', 'w-10 h-10'); ?></a>
-    </p>
-  </div>
-  <div>
+<footer class="flex flex-wrap w-full border-t border-neutral-800 text-center mt-8 py-8">
+  <div class="w-full md:w-1/2 md:order-2 mb-10 md:mb-0 px-4">
     <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Navigate</h3>
     <ul class="flex flex-wrap gap-3 justify-center divide-x divide-gray-400">
       <?php foreach ($routes as $key => $value): ?>
@@ -18,7 +12,13 @@
       <?php endforeach; ?>
     </ul>
   </div>
-  <div>
+  <div class="w-1/2 md:w-1/4 md:order-1">
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Contact</h3>
+    <p class="flex gap-3 justify-center">
+      <a href="javascript:window.location.href=atob('<?= base64_encode("mailto:collagerepublic@gmail.com") ?>')" class="transition duration-300"><?php echo svg('email', 'w-10 h-10'); ?></a>
+    </p>
+  </div>
+  <div class="w-1/2 md:w-1/4 md:order-3">
     <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Sígueme</h3>
     <p class="flex gap-3 justify-center">
       <a href="https://www.instagram.com/collagerepublic/" class="transition duration-300"><?php echo svg('instagram', 'w-8 h-8'); ?></a>

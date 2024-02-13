@@ -4,9 +4,11 @@
     <?php echo navProyects($route); ?>
 </div>
 
-<div class="max-w-4xl mx-auto px-5 py-6 my-6 prose">
+<div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">A lo lejos huele a mar</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
+    <p>Esta serie de obras son, en palabras de la comisaria, Gracia Iglesias Mínguez, «retazos de una vida que bien los pudo enterrar el tiempo y la ausencia si no fuera porque Lina Ávila, a través del collage, los reconstruye». Este proyecto se materializó en una exposición retrospectiva que ofrece una mirada íntima y reveladora a través del collage.</p>
+    <p>Con diez piezas cuidadosamente seleccionadas por Iglesias, la muestra captura la esencia de mi obra, fusionando diversas series y proyectos que han marcado la evolución de mi trabajo.</p>
+    <p>La colección incluye once collages que nos acercan a temáticas que van desde la introspección, la memoria, hasta la conexión con el entorno digital. Así encontramos piezas como <em>Loading</em>…, collage multimedia anteriormente seleccionado en la V Edición HYBRID Festival, al igual que <em>Madrid es un viaje</em>, que participó en la edición anterior del festival; <em>Legado</em> y <em>Celebración</em>, del proyecto <em>Cartas desde América</em>; <em>Mamamila</em>, perteneciente a Primer párrafo, publicado por la Editorial Piezas azules o <em>Tiempo amarillo</em>, de la serie <em>Memorias</em>, seleccionado por Natalia Alonso para LA ARTEINFORMADA.</p>
 </div>
 
 <div class="flex gap-5 my-6">
@@ -18,8 +20,8 @@
     </div>
 </div>
 
-<div class="max-w-4xl mx-auto px-5 py-12 prose">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
+<div class="max-w-4xl mx-auto px-5 py-12 prosed">
+    <p>Sobre este conjunto destaca una obra en técnica mixta de gran formato, <em>El tiempo que no compartimos</em>, un lienzo que discurre sobre conceptos como la presencia, en su vertiente tanto literal como virtual, el vínculo o la memoria. A través de la yuxtaposición de distintos materiales, texturas y colores, consideraciones sobre estos conceptos y las interrelaciones personales que generan. Así las distintas capas de cartón y papel juegan con la analogía de los distintos niveles de contenidos a los que nos exponemos diariamente. La fragmentación muestra la dualidad entre lo analógico y lo digital, lo manuscrito frente a lo impreso, la imagen frente a la palabra, la cercanía frente a la soledad.</p>
 </div>
 
 <div class="flex gap-5 my-6">
@@ -58,9 +60,9 @@
     <div>
         <img class="" src="/img/proyectos/a-lo-lejos-huele-a-mar/11-a-lo-lejos-huele-a-mar.jpg" alt="">
     </div>
-    <div class="px-5 flex flex-col justify-center">
-        <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et consequatur? Nisi quo libero numquam quis quam perferendis minus quae necessitatibus fugiat consequuntur labore iusto corrupti, blanditiis explicabo hic vel.</p>
-        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis asperiores. Eius mollitia possimus perferendis asperiores, quibusdam, consectetur optio doloribus eaque fugiat, accusantium aliquid assumenda? Consequatur consectetur soluta aperiam sint!</p>
+    <div class="px-5 flex flex-col justify-center prosed">
+        <p class="font-bold text-2xl"><em>El tiempo que no compartimos</em> muestra las conversaciones que se publican y, sin embargo, no se pronuncian.</p>
+        <p>Esta retrospectiva es más que una simple recopilación de obras; es un viaje a través del tiempo, que resume la diversidad de mi trabajo y nos acerca a temas universales como el olvido o el paso del tiempo.</p>
     </div>
 </div>
 

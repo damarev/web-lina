@@ -4,7 +4,7 @@
     <?php echo navProyects($route); ?>
 </div>
 
-<div class="max-w-4xl mx-auto px-5 py-6 my-6 prose">
+<div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">El hilo de la memoria</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
 </div>
@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<div class="max-w-4xl mx-auto px-5 py-12 prose">
+<div class="max-w-4xl mx-auto px-5 py-12 prosed">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
 </div>
 
@@ -58,9 +58,9 @@
     <div>
         <img class="" src="/img/proyectos/el-hilo-de-la-memoria/11-hilo-de-memoria.jpg" alt="">
     </div>
-    <div class="px-5 flex flex-col justify-center">
-        <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et consequatur? Nisi quo libero numquam quis quam perferendis minus quae necessitatibus fugiat consequuntur labore iusto corrupti, blanditiis explicabo hic vel.</p>
-        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis asperiores. Eius mollitia possimus perferendis asperiores, quibusdam, consectetur optio doloribus eaque fugiat, accusantium aliquid assumenda? Consequatur consectetur soluta aperiam sint!</p>
+    <div class="px-5 flex flex-col justify-center prosed">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et consequatur? Nisi quo libero numquam quis quam perferendis minus quae necessitatibus fugiat consequuntur labore iusto corrupti, blanditiis explicabo hic vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis asperiores. Eius mollitia possimus perferendis asperiores, quibusdam, consectetur optio doloribus eaque fugiat, accusantium aliquid assumenda? Consequatur consectetur soluta aperiam sint!</p>
     </div>
 </div>
 

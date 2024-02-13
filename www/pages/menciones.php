@@ -18,7 +18,7 @@
 	</div>
 </div>
 
-<div class="max-w-5xl mx-auto mt-20 px-5 prose">
+<div class="max-w-5xl mx-auto mt-20 px-5">
 
 	<ul class="max-w-[52rem] mx-auto pl-4 list-[circle] marker:text-gray-500 [&>li]:my-4 [&_a]:italic [&_a]:font-bold ">
 		<li>DIARIO DE ÁVILA: <a href="https://www.diariodeavila.es/noticia/zef3b6808-b229-8b33-3a201cf1b01a4af7/202308/telart-redescubre-la-tradicion-de-santa-maria-del-berrocal">El Telart redescubre la tradición de Santa María del Berrocal</a>, 21/08/2023</li>

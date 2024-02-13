@@ -12,7 +12,7 @@
 </div>
 
 
-<div class="max-w-3xl mx-auto px-5 prose">
+<div class="max-w-3xl mx-auto px-5">
 
 	<h2 class="section-title my-16">Exposiciones Individuales</h2>
 

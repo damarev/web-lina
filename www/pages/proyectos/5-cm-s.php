@@ -4,7 +4,7 @@
     <?php echo navProyects($route); ?>
 </div>
 
-<div class="max-w-4xl mx-auto px-5 py-6 my-6 prose">
+<div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">5 cm/s</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
 </div>
@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<div class="max-w-4xl mx-auto px-5 py-12 prose">
+<div class="max-w-4xl mx-auto px-5 py-12 prosed">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
 </div>
 
@@ -58,9 +58,9 @@
     <div>
         <img class="" src="/img/proyectos/5-cm-s/11-5cm-s.jpg" alt="">
     </div>
-    <div class="px-5 flex flex-col justify-center">
-        <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et consequatur? Nisi quo libero numquam quis quam perferendis minus quae necessitatibus fugiat consequuntur labore iusto corrupti, blanditiis explicabo hic vel.</p>
-        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis asperiores. Eius mollitia possimus perferendis asperiores, quibusdam, consectetur optio doloribus eaque fugiat, accusantium aliquid assumenda? Consequatur consectetur soluta aperiam sint!</p>
+    <div class="px-5 flex flex-col justify-center prosed">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et consequatur? Nisi quo libero numquam quis quam perferendis minus quae necessitatibus fugiat consequuntur labore iusto corrupti, blanditiis explicabo hic vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis asperiores. Eius mollitia possimus perferendis asperiores, quibusdam, consectetur optio doloribus eaque fugiat, accusantium aliquid assumenda? Consequatur consectetur soluta aperiam sint!</p>
     </div>
 </div>
 
@@ -76,6 +76,8 @@
     </div>
 </div>
 
-<div class="max-w-2xl mx-auto my-12">
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/573701604?h=1096bcdef1&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
+<!-- <iframe class="max-w-2xl w-full mx-auto my-12 aspect-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/573701604?h=1096bcdef1&portrait=0"></iframe> -->
+
+<iframe class="max-w-4xl w-full mx-auto my-12 px-6 aspect-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; picture-in-picture;" allowfullscreen src="https://www.youtube-nocookie.com/embed/AMjBD6RIur8?si=HeqSfIre26Qp56Gs&amp;start=104"></iframe>
+
+<iframe class="max-w-4xl w-full mx-auto my-12 px-6 aspect-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; picture-in-picture;" allowfullscreen src="https://www.youtube-nocookie.com/embed/yhO4bU1IH1Q?si=au7LzabedZytka3m&amp;start=350"></iframe>

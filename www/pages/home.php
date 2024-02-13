@@ -61,8 +61,17 @@
 
 
 <div class="flex flex-row my-8 text-center">
-    <div class="basis-7/12 flex justify-center content-center">
-        <div class="flex flex-col gap-8 justify-center pl-20">
+    <div class="basis-7/12 flex flex-col gap-10 justify-center content-center">
+
+        <div class="max-w-2xl mx-auto px-6 text-center flex flex-col gap-4">
+            <p class="quote text-5xl">
+                <span class="italic">Las</span> IMÁGENES <span class="italic">y las</span> PALABRAS CONVIVEN <span class="italic">en</span> ARMONÍA.
+            </p>
+            <p>Sus piezas son muy depuradas, directas y evocativas a la yugular –o al silencio–.</p>
+            <p class="quote-by"><span class="font-bold">Pablo Melgar</span>, Km 0</p>
+        </div>
+
+        <div class="flex flex-col gap-8 justify-center">
             <p><a href="<?php echo route('proyectos') ?>" class="link">Proyectos</a></p>
         </div>
     </div>
@@ -77,9 +86,10 @@
 </div>
 
 
-<swiper-container navigation="true" pagination="true" loop="true" centered-slides="true" autoplay="2000" class="mt-32">
-    <swiper-slide>
-        <div class="flex flex-col justify-center max-w-5xl mx-auto px-10 text-center pb-12">
+<swiper-container class="mt-32" auto-height="true" loop="true" navigation="true" pagination="true" pagination-clickable="true" slides-per-view="1">
+    <div slot="container-start" style="height:1px;">&nbsp;</div>
+    <swiper-slide data-swiper-slide-index="0" class="pb-12">
+        <div class="flex flex-col justify-center max-w-5xl mx-auto px-16 text-center">
             <p class="quote">
                 Lina Ávila SINTETIZA EMOCIONES COLECTIVAS en collages, poemas
                 y fotografías intervenidas. Presenta el mundo privado y la INTIMIDAD PERSONAL
@@ -93,8 +103,8 @@
             </p>
         </div>
     </swiper-slide>
-    <swiper-slide>
-        <div class="flex flex-col justify-center max-w-5xl mx-auto px-10 text-center">
+    <swiper-slide data-swiper-slide-index="1" class="pb-12">
+        <div class="flex flex-col justify-center max-w-5xl mx-auto px-16 text-center">
             <p class="quote">
                 Desde el CONCEPTO de la MEMORIA y el RECUERDO,
                 RESCATANDO del OLVIDO, Lina Ávila RECURRE al COLLAGE
@@ -106,8 +116,8 @@
             </p>
         </div>
     </swiper-slide>
-    <swiper-slide>
-        <div class="flex flex-col justify-center max-w-5xl mx-auto px-10 text-center">
+    <swiper-slide data-swiper-slide-index="2" class="pb-12">
+        <div class="flex flex-col justify-center max-w-5xl mx-auto px-16 text-center">
             <p class="quote">
                 En la OBRA de Lina Ávila veo una CONEXIÓN DIRECTA DE LA REALIDAD de las dos
                 primeras décadas del S. XXI. Es una ARTISTA de su TIEMPO, EMPÁTICA con los acontecimientos
@@ -121,21 +131,3 @@
         </div>
     </swiper-slide>
 </swiper-container>
-
-
-<!--
-<div class="max-w-screen-lg mx-auto prose px-8 py-10">
-    <h1>
-        Donec quis risus et orci suscipit tincidunt.
-    </h1>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere molestie magna, vel bibendum lectus aliquam nec. Quisque sed fringilla nibh. Sed eu ultricies eros. Nam at dictum lectus, non lobortis sem. Vestibulum iaculis ante nunc, vitae aliquam velit fermentum ut. Donec libero neque, maximus id mollis quis, hendrerit vehicula risus. Sed sagittis rutrum sodales. </p>
-    <blockquote class="antialiased">Nunc eu mi ipsum. Sed ut vulputate purus. Nullam hendrerit, nulla eget finibus pretium, dui risus viverra nibh, vel aliquam ante dolor nec erat. Mauris posuere risus mollis, hendrerit nunc at, sodales massa. In malesuada sem ac dignissim pulvinar.</blockquote>
-    <p> Nullam egestas orci sed mi egestas, sit amet condimentum eros cursus. Aliquam erat volutpat. Nam quis sem nunc. Mauris posuere risus mollis, hendrerit nunc at, sodales massa. In malesuada sem ac dignissim pulvinar. Sed sed condimentum ipsum. Proin in porttitor leo, rhoncus sagittis turpis. Fusce vitae risus justo. Nunc eu mi ipsum. Sed ut vulputate purus. Nullam hendrerit, nulla eget finibus pretium, dui risus viverra nibh, vel aliquam ante dolor nec erat. Donec at metus vitae diam vulputate maximus vitae ut erat. Donec quis risus et orci suscipit tincidunt. Duis maximus at lacus et fringilla. </p>
-    <ul>
-        <li>Nullam hendrerit, nulla eget finibus pretium, dui risus viverra nibh, vel aliquam ante dolor nec erat. </li>
-        <li>Donec quis risus et orci suscipit tincidunt. </li>
-        <li>In malesuada sem ac dignissim pulvinar. </li>
-        <li>Nam at dictum lectus, non lobortis sem. </li>
-        <li>Vestibulum iaculis ante nunc, vitae aliquam velit fermentum ut.</li>
-    </ul>
-</div> -->

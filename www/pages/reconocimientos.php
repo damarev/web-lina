@@ -12,7 +12,7 @@
 </div>
 
 
-<div class="max-w-5xl mx-auto px-5 prose">
+<div class="max-w-5xl mx-auto px-5">
 
 	<div class="year">
 		<p>2023</p>

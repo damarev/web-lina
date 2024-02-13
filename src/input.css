@@ -8,6 +8,7 @@
   --secondary: #5a6850;
   --swiper-navigation-color: var(--secondary);
   --swiper-pagination-color: black;
+  --swiper-pagination-bullet-size: 10px;
 }
 
 @layer base {
