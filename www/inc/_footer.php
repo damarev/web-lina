@@ -1,7 +1,7 @@
 </main>
 
 
-<footer class="flex flex-wrap w-full border-t border-neutral-800 text-center mt-8 py-8">
+<footer class="flex flex-wrap w-full border-t border-neutral-800 text-center py-8">
   <div class="w-full md:w-1/2 md:order-2 mb-10 md:mb-0 px-4">
     <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Navigate</h3>
     <ul class="flex flex-wrap gap-3 justify-center divide-x divide-gray-400">

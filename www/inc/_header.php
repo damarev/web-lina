@@ -30,7 +30,7 @@
 
     <div id="header" class="fixed z-10 top-0 w-full backdrop-blur border-b border-neutral-800 h-14 shadow-md">
         <a href="/">
-            <img src="/img/logo.png" class="fixed h-10 top-[6px] left-1/2 -translate-x-1/2">
+            <img src="/img/firma-logo-lina-avila.png" class="fixed h-10 top-[6px] left-1/2 -translate-x-1/2">
         </a>
         <button class="btn-subscribe" data-toggle="modal" data-target="#subscribe">SUSCRÍBETE</button>
         <div id="btn-toggle-nav" class="btn-toggle-nav cursor-pointer">

@@ -61,8 +61,9 @@
         <img class="" src="/img/proyectos/a-lo-lejos-huele-a-mar/11-a-lo-lejos-huele-a-mar.jpg" alt="">
     </div>
     <div class="px-5 flex flex-col justify-center prosed">
-        <p class="font-bold text-2xl"><em>El tiempo que no compartimos</em> muestra las conversaciones que se publican y, sin embargo, no se pronuncian.</p>
+        <p class="font-bold text-2xl text-gray-500"><em>El tiempo que no compartimos</em> muestra las conversaciones que se publican y, sin embargo, no se pronuncian.</p>
         <p>Esta retrospectiva es más que una simple recopilación de obras; es un viaje a través del tiempo, que resume la diversidad de mi trabajo y nos acerca a temas universales como el olvido o el paso del tiempo.</p>
+        <p class="text-sm">Proyecto expuesto en enero y febrero de 2022 en Nave 73, Madrid.</p>
     </div>
 </div>
 

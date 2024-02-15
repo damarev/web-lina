@@ -6,7 +6,9 @@
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">Antifémina</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
+    <p>Esta obra surge a partir de una investigación sobre el erotismo y sus manifestaciones culturales. El resultado de la misma revelaba que, más que premisas culturales, lo que prevalecía era una manera de mirar. Y, en consecuencia, de mostrarse y que esta mirada erótica se construye a partir de una perspectiva masculina, como cualquier otro tipo de representación visual normativa.</p>
+    <p>Desde esta concepción, la mirada se presenta desde la idea de control y poder, al estar los roles claramente definidos y convertir la imagen representada, mayoritariamente femenina, en un acto de posesión.</p>
+    <p>Así la construcción de lo femenino se limita a un sujeto-objeto pasivo, ya que el canon de lo visible se reduce al disfrute de otros y en el que la mujer no es dueña de su deseo, ni sensualidad. Esta cosificicación de la imagen femenina llega hasta el punto de que la mujer acaba perdiendo su identidad para convertirse en una amalgama de mujeres fragmentadas. Siendo la fragmentación, a su vez, característica significativa en el resto de mi obra. De este modo su imagen pierde unidad para convertirse en una mujer-órgano que se desmiembra y da lugar a una sucesión de zonas eróticas; de manera que solo existe en tanto que es portadora de las mismas.</p>
 </div>
 
 <div class="flex gap-5 my-6">
@@ -19,7 +21,10 @@
 </div>
 
 <div class="max-w-4xl mx-auto px-5 py-12 prosed">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus esse eligendi ipsum beatae illo, obcaecati fugiat, reprehenderit error dignissimos voluptatem id. Illum voluptatem ullam ratione voluptas ex omnis dicta iusto.</p>
+    <p>Estas reflexiones fueron la base de la propuesta de trabajo sobre la cual he desarrollado esta obra, a través de la técnica mixta, la fotografía y el vídeo. Por medio de ellas construyo un poema visual desde una narrativa donde el eje temporal da protagonismo a un “trozo de mujer” para hacer evidente algo tan normativo que pasa desapercibido: la descomposición y la exposición del cuerpo femenino en el espacio público.</p>
+    <p>Mujer-órgano que se expone sin filtro a las consecuencias del paso del tiempo.</p>
+    <p>La serie fotográfica y la pieza audiovisual me permiten mostrar a una mujer escaparate, a partir de la cual se crea un ideal de feminidad, inalcanzable para la gran mayoría de mu­jeres, en el que su esencia se reduce a su cuerpo, el cual se convierte en objeto de consumo valorado en función de su edad, complexión forma… </p>
+    <p>Gracias a esta combinación de técnicas y conceptos puedo convertir al espectador en tes­tigo del paso del tiempo, variable a través de la cual la obra adquiere sentido pleno. Así pro­pongo un juego de miradas en el que hago partícipes tanto al sujeto-observador, como al sujeto-observado, diluyendo de este modo los roles hegemónicos. Esta mirada reflexiva e igualitaria convierte al espectador en cómplice, abriendo un diálogo sobre el cuerpo como identidad, lo estereotipado frente a lo auténtico y la juventud como ideal de belleza.</p>
 </div>
 
 <div class="flex gap-5 my-6">
@@ -59,8 +64,9 @@
         <img class="" src="/img/proyectos/antifemina/11-antifemina.jpg" alt="">
     </div>
     <div class="px-5 flex flex-col justify-center prosed">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et consequatur? Nisi quo libero numquam quis quam perferendis minus quae necessitatibus fugiat consequuntur labore iusto corrupti, blanditiis explicabo hic vel.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis asperiores. Eius mollitia possimus perferendis asperiores, quibusdam, consectetur optio doloribus eaque fugiat, accusantium aliquid assumenda? Consequatur consectetur soluta aperiam sint!</p>
+        <p>La técnica mixta y su documentación mediante la fotografía y el vídeo, me permite crear una obra viva que habla sobre lo efímero, estableciendo una analogía entre el proceso de marchitación y las implicaciones que el paso del tiempo tiene en el cuerpo de la mujer: el miedo a la vejez y, en consecuencia, a dejar de ser deseada.</p>
+        <p class="font-bold text-2xl text-gray-500"><em>Antifémina</em> son todas y cada una de las mujeres, también las que no encajan en el concep­to creado de feminidad. Es además un homenaje a la publicación del mismo nombre en la que, ya a finales de los 70, Colita y Maria Aurèlia Capmany se preguntaban qué significaba ser mujer.</p>
+        <p class="text-sm">Proyecto expuesto en MUMUAR Festival en marzo de 2019, Ünnamed Gallery de marzo o junio de 2020 y publicado en el nº X de Vulva Fanzine.</p>
     </div>
 </div>
 
