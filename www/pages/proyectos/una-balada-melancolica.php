@@ -1,8 +1,10 @@
-<div class="relative">
+<div class="p-header">
     <img src="/img/proyectos/una-balada-melancolica/1-una-balada-melancolica.jpg" alt="">
-    <h2 class="absolute top-1/2 left-0 w-full px-16 -translate-y-1/2 quote text-center uppercase text-5xl md:text-7xl text-white">Una balada melancólica</h2>
+    <h2 class="text-white">Una balada melancólica</h2>
     <?php echo navProyects($route); ?>
 </div>
+
+<?php view('_proyects-back') ?>
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">Una balada melancólica</p>
@@ -21,9 +23,9 @@
 </div>
 
 <div class="max-w-4xl mx-auto px-5 py-12 prosed">
-    <p>A principios de 2020 descubrí su carrera literaria, más allá de su trayectoria como pintora y musa de los prerrafaelitas, de su trágica vida y su legendaria muerte. Desde entonces, junto con Elena Pardo, nos hemos sumergido en su lirismo y hemos recreado cada uno de sus poemas a través del collage. Siendo esta nuestra particular manera de recuperarla del olvido y visibilizar su trayectoria artística.</p>
+    <p>A principios de 2020 descubrí su carrera literaria, más allá de su trayectoria como pintora y musa de los prerrafaelitas, de su trágica vida y su legendaria muerte. Desde entonces, junto con Elena Pardo, nos hemos sumergido en su lirismo y hemos recreado cada uno de sus poemas a través del collage. Siendo esta nuestra particular manera de recuperarla del olvido y visibilizar su legado artístico.</p>
     <p>A través de recortes y palabras extraídas de los propios poemas de Siddall en su versión original, hemos convertido en imagen sus versos con el objetivo de acercar a su obra. Cada una de estas piezas están creadas de manera colaborativa, de tal modo que hemos ido intercalando la responsabilidad de la imagen o el texto en una de nosotras. El uso de esta creación conjunta no es casual. Con ella queremos manifestar la importancia de generar redes de sororidad entre mujeres artistas que nos permitan mantener y transmitir nuestra herencia, poniendo en valor referentes femeninos que la historia ha condenado al oscurantismo.</p>
-    <p>Antes del desarrollo de estas 16 piezas, creamos otra en técnica mixta con el título <em>Una balada melancólica</em>, que también da nombre al proyecto completo, y que está extraído del prólogo del libro donde se publica las obras completas de la artista. Esta obra es nuestro particular homenaje a la figura de Siddall, como artista completa con una sensibilidad extraordinaria que no dejó de crear a pesar de la enfermedad. El lienzo como soporte y las pinceladas de acrílico nos hablan sobre su obra pictórica, los recortes sobre sus barreras por ser mujer y el poema, especialmente escrito para la pieza, sobre su trayectoria poética.</p>
+    <p>Antes del desarrollo de estas 16 piezas, creamos otra en técnica mixta con el título <em>Una balada melancólica</em>, que también da nombre al proyecto completo, y que está extraído del prólogo del libro donde se has publicado las obras completas de la artista. Esta obra es nuestro particular homenaje a la figura de Siddall, como artista completa con una sensibilidad extraordinaria que no dejó de crear a pesar de la enfermedad. El lienzo como soporte y las pinceladas de acrílico nos hablan sobre su obra pictórica, los recortes sobre sus barreras por ser mujer y el poema, especialmente escrito para la pieza, sobre su trayectoria poética.</p>
     <p>Su pequeño formato nos conecta con el intimismo de sus versos, con la mujer que se construye en sujeto y creadora, y con el lienzo, de poco más de 20 cm, que realizó entre 1853-1854 en el que la artista se autorretrataba. El único en el que mira a los ojos.</p>
 </div>
 
@@ -66,7 +68,7 @@
     <div class="px-5 flex flex-col justify-center prosed">
         <p>Se dice que sus versos son fieles a su época, propios de los gustos y estilo victoriano. En ellos se habla de amor, de muerte, de pérdida, de culpa, de imposibilidad... Sin embargo, a pesar de su corte clásico y su simbolismo religioso, nosotras quisimos contemporalizarlos, a través de estas técnicas, al darnos cuenta que, inherentemente, estos poemas recogían los ideales del amor romántico sobre el que se sostienen, también ahora, gran parte de las relaciones tóxicas. Las mismas que condujeron a Siddall por una desdichada vida y falta de conocimiento y reconocimiento artístico.</p>
         <p>De este modo, <em>Una balada melancólica</em> nos invita, por un lado, a reflexionar sobre los pilares sobre los que se asienta nuestra cultura, donde se alimentan narrativas e ideales de mujer daniños. Por otro, es una reivindicación al papel de las artistas en la historia del arte, como referente y estímulo, aquellas que fueron borradas por sus propios maestros o maridos.</p>
-        <p class="text-sm">Proyecto expuesto en La Tetería, Rivas-Vaciamadrid, de febrero a marzo de 2022, El perro de Pavlov, Madrid, en mayo de 2022, en La Libre de Barrio, Leganés, entre octubre y diciembre de 2022 y en The Stendha Room, Madrid, en los meses de marzo y abril.</p>
+        <p class="text-sm">Proyecto expuesto en La Tetería, Rivas-Vaciamadrid, de febrero a marzo de 2022, El perro de Pavlov, Madrid, en mayo de 2022, en La Libre de Barrio, Leganés, entre octubre y diciembre de 2022 y en The Stendhal Room, Madrid, en los meses de marzo y abril de 2023.</p>
     </div>
 </div>
 
@@ -80,8 +82,4 @@
     <div  class="w-[25.4%]">
         <img src="/img/proyectos/una-balada-melancolica/14-una-balada-melancolica.jpg" alt="">
     </div>
-</div>
-
-<div class="max-w-2xl mx-auto my-12">
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/573701604?h=1096bcdef1&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>

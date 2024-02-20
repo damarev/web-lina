@@ -3,9 +3,7 @@
 		<img src="/img/talleres/talleres-creativos-lina-avila.jpg" alt="">
 	</div>
 	<div class="grow mx-8 mt-12 md:mt-0">
-		<h2 class="quote text-center text-5xl md:text-7xl uppercase">
-		Talleres
-		</h2>
+		<h1 class="h1 text-5xl md:text-7xl ">Talleres</h1>
 	</div>
 	<div class="max-w-lg hidden md:block">
 		<img src="/img/talleres/talleres-collage-lina-avila.jpg" alt="">
@@ -15,12 +13,12 @@
 <div class="max-w-5xl mx-auto px-6 flex flex-col gap-4">
 	<p>El mundo del collage es un viaje fascinante a través de la creatividad, donde la fragmentación, la recontextualización y el azar se convierten en valiosos compañeros, porque la esencia de esta técnica radica precisamente en abrazar lo inesperado.</p>
 	<p>En cada recorte, en cada pieza de papel, en cada elección, yace la posibilidad de una conexión única y sorprendente. Es como si las tijeras y el pegamento fueran las herramientas mágicas que permiten que lo fortuito se convierta en algo asombroso.</p>
-	<p>El collage nos desafía a soltar las riendas del control y a confiar en la magia de la improvisación. En este proceso, encontramos belleza en la imprevisibilidad, donde la búsqueda y la selección contribuye a la riqueza visual y narrativa de la obra final.</p>
+	<p>Crear a través del collage nos desafía a soltar las riendas del control y a confiar en el proceso. En su desarrollo, encontramos belleza en la imprevisibilidad, donde la búsqueda y la selección contribuye a la riqueza visual y narrativa de la obra final.</p>
 </div>
 
-<img class="my-10" src="/img/talleres/talleres-de-collage-lina-avila.jpg" alt="">
+<img class="my-8 md:my-10" src="/img/talleres/talleres-de-collage-lina-avila.jpg" alt="">
 
-<div class="max-w-5xl mx-auto px-6 flex flex-col gap-4 my-20">
+<div class="max-w-5xl mx-auto px-6 flex flex-col gap-4 my-8 md:my-16">
 	<p class="quote text-center text-3xl md:text-5xl mb-6 md:mb-10">
 		<span class="italic">un</span> ESPACIO <span class="italic">de</span> <br> EXPLORACIÓN ARTÍSTICA
 	</p>
@@ -31,12 +29,12 @@
 </div>
 
 
-<img class="my-10" src="/img/talleres/lina-avila-talleres-de-collage.jpg" alt="">
+<img class="my-6 md:my-10" src="/img/talleres/lina-avila-talleres-de-collage.jpg" alt="">
 
 
-<div class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 gap-16 my-16">
+<div class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-16 my-8 md:my-16">
 
-	<div class="sm:order-2 flex flex-col gap-4 justify-center">
+	<div class="flex flex-col gap-4 justify-center">
 		<p class="quote text-center text-3xl md:text-5xl mb-6 md:mb-10">
 			POR QUÉ <span class="italic">un</span> TALLER <span class="italic">de</span> COLLAGE
 		</p>
@@ -46,28 +44,14 @@
 		<p>El collage también es una herramienta que nos permite expresar nuestras emociones y conectar con nuestro impulso creativo, facilitando además una experiencia colectiva al fomentar el intercambio de impresiones con el grupo de participantes. Aunque, si lo prefieres, existe la modalidad de taller individual o puedo diseñar una experiencia para una compartir con un grupo personalizado (amistades, familias, jornadas, empresas…).</p>
 	</div>
 
-	<div class="sm:order-1">
+	<div class="">
 		<img src="/img/talleres/lina-avila-talleres.jpg" alt="">
-	</div>
-
-	<div class="sm:order-3 flex flex-col gap-4 justify-center">
-		<p class="quote text-center text-3xl md:text-5xl mb-6 md:mb-10">
-			POR QUÉ <span class="italic">un</span> TALLER <span class="italic">de</span> COLLAGE
-		</p>
-
-		<p>Aprenderás a desarrollar todo el potencial que tiene esta técnica y cómo ahondar en tu creatividad combinando imagen y palabra en un contexto diferente para producir nuevos significados. Esta resignificadción te permitirá generar una nueva y personal narrativa.</p>
-
-		<p>El collage también es una herramienta que nos permite expresar nuestras emociones y conectar con nuestro impulso creativo, facilitando además una experiencia colectiva al fomentar el intercambio de impresiones con el grupo de participantes. Aunque, si lo prefieres, existe la modalidad de taller individual o puedo diseñar una experiencia para una compartir con un grupo personalizado (amistades, familias, jornadas, empresas…).</p>
-	</div>
-
-	<div class="sm:order-4">
-		<img src="/img/talleres/lina-avila-talleres-creativos.jpg" alt="">
 	</div>
 
 </div>
 
 
-<div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 my-16">
+<div class="max-w-6xl mx-auto grid grid-cols-1 gap-4 sm:gap-0 sm:grid-cols-2 my-8 md:my-16">
 
 	<div class="sm:order-2 flex flex-col justify-center p-6 md:p-10">
 		<p class="quote text-center text-3xl md:text-5xl mb-6 md:mb-10">
@@ -77,7 +61,7 @@
 		<p>En los talleres, te invito a utilizar la imaginación sin restricciones, ni juicios, permitiendo que tus ideas y diferentes visiones cobren vida, de manera que puedas crear tu propio relato.</p>
 	</div>
 
-	<img class="sm:order-1" src="/img/talleres/talleres-collage-jovenes.jpg" alt="">
+	<img class="sm:order-1" src="/img/talleres/lina-avila-talleres-creativos.jpg" alt="">
 
 	<div class="sm:order-3 flex flex-col justify-center p-6 md:p-10">
 		<p class="quote text-center text-3xl md:text-5xl mb-6 md:mb-10">

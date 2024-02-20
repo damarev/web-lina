@@ -10,7 +10,7 @@ $routes = [
 	'reconocimientos' => ['Reconocimientos'],
 	'publicaciones' => ['Publicaciones'],
 	'talleres' => ['Talleres'],
-	'contacto' => ['Contacto'],
+	// 'contacto' => ['Contacto'],
 ];
 
 $proyectos = [
@@ -51,12 +51,11 @@ function is_current_page($slug)
 function get_page_title()
 {
 	global $route, $routes, $proyectos;
-	if(isset($routes[$route])) {
-		return $routes[$route][0] . ' - Lina Ávila';
-	}
-	if(isset($proyectos[$route])) {
-		return $proyectos[$route][0] . ' - Lina Ávila';
-	}
+	$tag = 'Lina Ávila';
+
+	if($route === 'home') return "{$tag}";
+	if(isset($routes[$route])) return $routes[$route][0] . " - {$tag}";
+	if(isset($proyectos[$route])) return $proyectos[$route][0] . " - {$tag}";
 	return '';
 }
 
@@ -83,6 +82,26 @@ function buffer($path, $data = [])
 	$content = ob_get_contents(); # $content now contains anything that has been output already
 	ob_end_clean();
 	return $content;
+}
+
+function dev()
+{
+	if(!isDev()) return;
+
+	$scripts = [
+		''
+	];
+	echo implode("\n", $scripts);
+}
+
+function isDev()
+{
+	return in_array($_SERVER['SERVER_NAME'], ['localhost']);
+}
+
+function view($tpl)
+{
+	include __DIR__ . "/{$tpl}.php";
 }
 
 function navProyects($current)

@@ -1,8 +1,10 @@
-<div class="relative">
+<div class="p-header">
     <img src="/img/proyectos/postcard/1-postcard.jpg" alt="">
-    <h2 class="absolute top-1/2 left-0 w-full px-16 -translate-y-1/2 quote text-center uppercase text-5xl md:text-7xl text-white">Postcard</h2>
+    <h2 class="text-white">Postcard</h2>
     <?php echo navProyects($route); ?>
 </div>
+
+<?php view('_proyects-back') ?>
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">POSTCARDS, POSTALES DE NINGÚN LUGAR</p>
@@ -21,7 +23,7 @@
 
 <div class="max-w-4xl mx-auto px-5 py-12 prosed">
     <p>El formato de las tarjetas postales, al seleccionar paisajes, destinos y anécdotas especiales, encuentra su contraparte en el collage. A través de la fragmentación, puedo dar forma a una narrativa, donde rememoro y recontextualizo imágenes y palabras a partir pedazos procedentes de material recuperado.</p>
-    <p>De este modo, mi trayectoria personal y la propia biografía del papel se intercalan en cada pieza, al componer con elementos encontrados, como en <em>Sonrisa</em> y <em>Monotonía</em>, hasta documentos históricos, como en "Abrazo Infinito", e incluso correspondencia íntima, como en "Mamá y Pantallas". De este modo, la obra se convierte en una amalgama de experiencias, un testimonio de la intersección entre lo personal y lo colectivo.</p>
+    <p>De este modo, mi trayectoria personal y la propia biografía del papel se intercalan en cada pieza, al componer con elementos encontrados, como en <em>Sonrisa</em> y <em>Monotonía</em>, hasta documentos históricos, como en <em>Abrazo Infinito</em>, e incluso correspondencia íntima, como en <em>Mamá</em> y <em>Pantallas</em>. De este modo, la obra se convierte en una amalgama de experiencias, un testimonio de la intersección entre lo personal y lo colectivo.</p>
 </div>
 
 <div class="flex gap-5 my-6">
@@ -78,8 +80,4 @@
     <div  class="w-[25.4%]">
         <img src="/img/proyectos/postcard/14-postcard.jpg" alt="">
     </div>
-</div>
-
-<div class="max-w-2xl mx-auto my-12">
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/573701604?h=1096bcdef1&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>

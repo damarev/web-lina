@@ -75,18 +75,11 @@
     "pos": "BL:V"
   },
   {
-    "txt": "FOTO: MÓNICA y DAVID ALBURQUERQUE",
+    "txt": "FOTO: MÓNICA ESTEBAN y DAVID ALBURQUERQUE",
     "dir": "proyectos/en-conflicto",
     "imgs": [
       "7-en-conflicto.jpg",
-      "13-en-conflicto.jpg"
-    ],
-    "pos": "BL:V"
-  },
-  {
-    "txt": "FOTO: MÓNICA y DAVID ALBURQUERQUE",
-    "dir": "proyectos/en-conflicto",
-    "imgs": [
+      "13-en-conflicto.jpg",
       "14-en-conflicto.jpg"
     ],
     "color": "GREY",

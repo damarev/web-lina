@@ -1,12 +1,12 @@
 <div class="flex items-center my-10">
-	<div class="max-w-xs relative -top-5 pr-5"><img src="/img/proyectos/abrazar_lina_avila.jpg" alt=""></div>
-	<h2 class="grow mx-5">
-		<p class="quote text-center text-4xl md:text-6xl uppercase">Proyectos</p>
-	</h2>
-	<div class="max-w-xs relative top-5 pl-5"><img src="/img/proyectos/balada-otono-lina-avila.jpg" alt=""></div>
+	<div class="max-w-xs relative -top-5 pr-5 hidden sm:block"><img src="/img/proyectos/abrazar_lina_avila.jpg" alt=""></div>
+	<div class="grow mx-5">
+		<h1 class="h1 md:text-6xl">Proyectos</h1>
+	</div>
+	<div class="max-w-xs relative top-5 pl-5 hidden sm:block"><img src="/img/proyectos/balada-otono-lina-avila.jpg" alt=""></div>
 </div>
 
-<div class="max-w-7xl mx-auto text-center px-8 mt-32">
+<div class="max-w-7xl mx-auto text-center px-8 mt-16 md:mt-32">
 	<ul class="list-none flex flex-col md:flex-row flex-wrap justify-center gap-6 sm:gap-8" id="proyectos">
 		<?php foreach ($proyectos as $key => $value): ?>
 			<li class=" text-2xl md:text-3xl">

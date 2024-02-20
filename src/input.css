@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+html { -webkit-font-smoothing: antialiased; }
+
 :root {
   --bg-color: #faf9f6;
   --text: #000000;
@@ -9,10 +11,10 @@
   --swiper-navigation-color: var(--secondary);
   --swiper-pagination-color: black;
   --swiper-pagination-bullet-size: 10px;
+  --swiper-navigation-size: 120px;
 }
 
 @layer base {
-
   body {
     @apply font-sans bg-[color:var(--bg-color)] overflow-x-hidden text-[#374151]
   }
@@ -25,8 +27,11 @@
   }
 }
 
-
 @layer components {
+
+  .h1 {
+    @apply quote text-center uppercase text-4xl lg:text-5xl
+  }
 
   .link {
     @apply px-3 py-2 border-b border-black no-underline uppercase tracking-[.2em] transition-all ease-in-out
@@ -36,7 +41,7 @@
   .btn-subscribe {
     font-family: 'Montserrat';
     @apply rounded-sm border-2 bg-white/20 border-neutral-800 hover:text-white text-neutral-800
-    hover:bg-neutral-800 py-1 px-6 tracking-widest text-sm float-right mr-4 mt-3 ease-in transition-colors;
+    hover:bg-neutral-800 py-1 px-6 tracking-widest text-sm ease-in transition-colors;
   }
 
   .section-title {
@@ -49,12 +54,29 @@
   }
 
   .quote-by {
-    @apply font-['Montserrat'] text-lg tracking-normal
+    @apply font-['Montserrat'] text-base tracking-normal
   }
 
   .section-subtitle {
     @apply text-3xl text-center uppercase
   }
+
+
+}
+.p-header  {
+  @apply relative;
+}
+.p-header h2 {
+  @apply absolute top-1/2 left-0 w-full px-16 -translate-y-1/2 quote text-center uppercase text-5xl sm:text-5xl md:text-7xl text-white;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .btn-toggle-nav {
@@ -147,6 +169,10 @@ body.menu-open.has-scroll {
 body.menu-open.has-scroll #header {
   @apply pr-[15px]
 }
+body.menu-open #header > a > img {
+  @apply pr-[15px]
+}
+
 
 body.menu-open .main-nav {
   display: block;
@@ -203,22 +229,22 @@ body.modal-active {
   transform: scaleX(1);
 }
 
-@media (max-width: 767px) {
-  #proyectos li {
-    @apply p-0
-  }
-  #proyectos li::before {
-    content:"";
-  }
+
+ul.list-circle {
+  @apply list-[circle] pl-4 marker:text-gray-500 [&>li]:my-4 leading-normal
 }
 
-.year {
-  @apply relative mb-8 text-left;
-  & > p:first-child {
-    @apply absolute w-16 shrink-0 m-0 pr-2 text-lg font-bold leading-5;
+
+dl.years {
+  @apply grid grid-cols-[60px,1fr] gap-y-8 my-8;
+  & > dt {
+    @apply text-lg font-bold leading-5;
   }
-  & > p {
-    @apply ml-14 mb-3;
+  & > dd {
+    @apply grow pl-4 border-l border-gray-300;
+  }
+  & > dd ul {
+    @apply flex flex-col gap-3;
   }
 }
 
@@ -228,6 +254,17 @@ body.modal-active {
     @apply my-4;
   }
 }
+
+@media (max-width: 767px) {
+  #proyectos li {
+    @apply p-0
+  }
+  #proyectos li::before {
+    content:"";
+  }
+}
+
+
 
 /*
 @screen sm {

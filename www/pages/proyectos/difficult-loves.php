@@ -1,8 +1,10 @@
-<div class="relative">
+<div class="p-header">
     <img src="/img/proyectos/difficult-loves/1-difficult-loves.jpg" alt="">
-    <h2 class="absolute top-1/2 left-0 w-full px-16 -translate-y-1/2 quote text-center uppercase text-5xl md:text-7xl text-white">Difficult loves</h2>
+    <h2 class="text-white">Difficult loves</h2>
     <?php echo navProyects($route); ?>
 </div>
+
+<?php view('_proyects-back') ?>
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">Difficult loves</p>
@@ -61,7 +63,7 @@
         <img class="" src="/img/proyectos/difficult-loves/11-difficult-loves.jpg" alt="">
     </div>
     <div class="px-5 flex flex-col justify-center prosed">
-        <p>Así surge <em>Difficult Loves</em>, un diario de cuarentena donde canalizo y expreso mi sentir sobre lo que acontecido. Cada página habla de distancia, de ausencias, de lo que significa un hogar, de lo colectivo y lo íntimo, del pasado y el presente, de la incertidumbre… de nuevos caminos. A diferencia del resto de mi obra, en esta ocasión el proceso fue muy ágil y no dejé reposar las piezas. Buscaba que esta particular manera de documentación fluyera de forma espontánea y directa, como un reflejo puro y libre al que volver cuando todo pasara.</p>
+        <p>Así surge <em>Difficult Loves</em>, un diario de cuarentena donde canalizo y expreso mi sentir sobre lo acontecido. Cada página habla de distancia, de ausencias, de lo que significa un hogar, de lo colectivo y lo íntimo, del pasado y el presente, de la incertidumbre… de nuevos caminos. A diferencia del resto de mi obra, en esta ocasión el proceso fue muy ágil y no dejé reposar las piezas. Buscaba que esta particular manera de documentación fluyera de forma espontánea y directa, como un reflejo puro y libre al que volver cuando todo pasara.</p>
         <p><em>Difficult Loves</em> se presenta como un documento sobre la singularidad de esos tiempos. Un diario visual donde los fragmentos de imágenes y palabras se entrelazan para narrar la historia y acabar siendo testigo de la resiliencia y creatividad en medio de la dificultad.</p>
         <p class="text-sm">Esta pieza formó parte del festival de autoedición (h)ójala, que tuvo lugar en abril de 2023 en The Stendhal Room.</p>
     </div>
@@ -79,6 +81,4 @@
     </div>
 </div>
 
-<div class="max-w-2xl mx-auto my-12">
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/573701604?h=1096bcdef1&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
+<iframe class="max-w-4xl w-full mx-auto my-12 px-6 aspect-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; picture-in-picture;" allowfullscreen src="https://player.vimeo.com/video/912038880?h=fa9c522dda"></iframe>

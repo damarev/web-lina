@@ -1,8 +1,10 @@
-<div class="relative">
+<div class="p-header">
     <img src="/img/proyectos/a-lo-lejos-huele-a-mar/1-a-lo-lejos-huele-a-mar.jpg" alt="">
-    <h2 class="absolute top-1/2 left-0 w-full px-16 -translate-y-1/2 quote text-center uppercase text-5xl md:text-7xl text-white">A lo lejos huele a mar</h2>
+    <h2 class="text-white">A lo lejos huele a mar</h2>
     <?php echo navProyects($route); ?>
 </div>
+
+<?php view('_proyects-back') ?>
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">A lo lejos huele a mar</p>
@@ -21,7 +23,7 @@
 </div>
 
 <div class="max-w-4xl mx-auto px-5 py-12 prosed">
-    <p>Sobre este conjunto destaca una obra en técnica mixta de gran formato, <em>El tiempo que no compartimos</em>, un lienzo que discurre sobre conceptos como la presencia, en su vertiente tanto literal como virtual, el vínculo o la memoria. A través de la yuxtaposición de distintos materiales, texturas y colores, consideraciones sobre estos conceptos y las interrelaciones personales que generan. Así las distintas capas de cartón y papel juegan con la analogía de los distintos niveles de contenidos a los que nos exponemos diariamente. La fragmentación muestra la dualidad entre lo analógico y lo digital, lo manuscrito frente a lo impreso, la imagen frente a la palabra, la cercanía frente a la soledad.</p>
+    <p>Sobre este conjunto destaca una obra en técnica mixta de gran formato, <em>El tiempo que no compartimos</em>. Este lienzo discurre sobre conceptos como la presencia, en su vertiente tanto literal como virtual, el vínculo o la memoria, a través de la yuxtaposición de distintos materiales, texturas y colores. Así las distintas capas de cartón y papel juegan con la analogía de los distintos niveles de contenidos a los que nos exponemos diariamente. La fragmentación muestra la dualidad entre lo analógico y lo digital, lo manuscrito frente a lo impreso, la imagen frente a la palabra, la cercanía frente a la soledad.</p>
 </div>
 
 <div class="flex gap-5 my-6">

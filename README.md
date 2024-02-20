@@ -1,5 +1,8 @@
 # web-lina
 
+ns1.lithiumdns.net
+ns2.lithiumdns.net
+
 GENERAL
 Ofuscar email del footer
 [OK] poner icono de flecha arriba para subir el scroll

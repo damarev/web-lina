@@ -3,7 +3,7 @@
 
 <footer class="flex flex-wrap w-full border-t border-neutral-800 text-center py-8">
   <div class="w-full md:w-1/2 md:order-2 mb-10 md:mb-0 px-4">
-    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Navigate</h3>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Menú</h3>
     <ul class="flex flex-wrap gap-3 justify-center divide-x divide-gray-400">
       <?php foreach ($routes as $key => $value): ?>
           <li class="pl-3">
@@ -13,26 +13,27 @@
     </ul>
   </div>
   <div class="w-1/2 md:w-1/4 md:order-1">
-    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Contact</h3>
+    <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Contacto</h3>
     <p class="flex gap-3 justify-center">
       <a href="javascript:window.location.href=atob('<?= base64_encode("mailto:collagerepublic@gmail.com") ?>')" class="transition duration-300"><?php echo svg('email', 'w-10 h-10'); ?></a>
     </p>
   </div>
   <div class="w-1/2 md:w-1/4 md:order-3">
     <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Sígueme</h3>
-    <p class="flex gap-3 justify-center">
+    <p class="flex gap-3 justify-center my-4">
       <a href="https://www.instagram.com/collagerepublic/" class="transition duration-300"><?php echo svg('instagram', 'w-8 h-8'); ?></a>
       <a href="https://es.linkedin.com/in/lina-%C3%A1vila-serrano-944b83159" class="transition duration-300"><?php echo svg('linkedin', 'w-8 h-8'); ?></a>
       <a href="https://vimeo.com/user86699386" class="transition duration-300"><?php echo svg('vimeo', 'w-8 h-8'); ?></a>
     </p>
+    <button class="btn-subscribe my-4" data-toggle="modal" data-target="#subscribe">SUSCRÍBETE</button>
   </div>
 </footer>
 
   <!--Modal-->
-  <div id="subscribe" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
+  <div id="subscribe" class="modal opacity-0 pointer-events-none fixed z-10 w-full h-full top-0 left-0 flex items-center justify-center">
     <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
 
-    <div class="modal-container bg-white  max-w-xl w-full  mx-auto rounded shadow-lg z-50 overflow-y-auto">
+    <div class="modal-container bg-white max-w-[30rem] w-full mx-auto rounded shadow-lg z-50 overflow-y-auto">
 
       <!-- Add margin if you want to see some of the overlay behind the modal-->
       <div class="modal-content relative bg-white">
@@ -44,7 +45,14 @@
           </div>
 
         <!--Body-->
-        <iframe src="https://a19070b2.sibforms.com/serve/MUIEAJKIVx1pzPhR12t8BX7YtOAaB1Nz-oO0UbExpXswN6z1Ks2sbd5mVdVwE4eX8DQHvue9i5aAbRNcqEeSg5mZ9MmC95tMCr3rjTop3KYcJh2Qy9KYshTbEkfPoKX_pVRsiNT4GINTFuLrg3CvFqGmZQW2mE6UKcJOD2UF68kAsXBG0L0oTP1UCfhzQCuz3A2LjIMbRYghudki" frameborder="0" scrolling="auto" allowfullscreen style="width:100%;height:600px;display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+
+        <div class="px-16 pt-8 flex flex-col gap-4">
+          <p class="quote text-3xl uppercase text-center">Newsletter</p>
+          <p>Si quieres recibir en tu correo novedades, exposiciones, talleres, recomendaciones y algunas reflexiones, apúntate a mi newsletter y no dejes que el algoritmo decida por ti.</p>
+          <p class="text-center">¿Te vienes?</p>
+        </div>
+
+        <iframe src="https://a19070b2.sibforms.com/serve/MUIEAJKIVx1pzPhR12t8BX7YtOAaB1Nz-oO0UbExpXswN6z1Ks2sbd5mVdVwE4eX8DQHvue9i5aAbRNcqEeSg5mZ9MmC95tMCr3rjTop3KYcJh2Qy9KYshTbEkfPoKX_pVRsiNT4GINTFuLrg3CvFqGmZQW2mE6UKcJOD2UF68kAsXBG0L0oTP1UCfhzQCuz3A2LjIMbRYghudki" frameborder="0" scrolling="auto" allowfullscreen style="width:100%; height:450px; display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 
         <!--Footer-->
         <!-- <div class="flex justify-end pt-2">
