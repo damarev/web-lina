@@ -57,6 +57,12 @@
 	<h2 class="section-title my-16">Exposiciones colectivas</h2>
 
 	<dl class="years">
+		<dt>2024</dt>
+		<dd>
+			<ul>
+				<li><b>The Stendhal Room</b>, «Mi propia guerra», comisariada por Mujeres que cortan y pegan. Madrid.</li>
+			</ul>
+		</dd>
 		<dt>2023</dt>
 		<dd>
 			<ul>

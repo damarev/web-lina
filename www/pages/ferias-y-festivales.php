@@ -17,6 +17,12 @@
 
 
 	<dl class="years">
+		<dt>2024</dt>
+		<dd>
+			<ul>
+				<li><b>II Festival de Arte y Feminismo Ciudad de Béjar.</b> Exposición de arte postal. Béjar, Salamanca. </li>
+			</ul>
+		</dd>
 		<dt>2023</dt>
 		<dd>
 			<ul>

@@ -1104,6 +1104,10 @@ a:hover {
   max-width: 24rem;
 }
 
+.max-w-\[35rem\] {
+  max-width: 35rem;
+}
+
 .grow {
   flex-grow: 1;
 }

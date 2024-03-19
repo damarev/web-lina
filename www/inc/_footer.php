@@ -33,7 +33,7 @@
   <div id="subscribe" class="modal opacity-0 pointer-events-none fixed z-10 w-full h-full top-0 left-0 flex items-center justify-center">
     <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
 
-    <div class="modal-container bg-white max-w-[30rem] w-full mx-auto rounded shadow-lg z-50 overflow-y-auto">
+    <div class="modal-container bg-white max-w-[35rem] w-full mx-auto rounded shadow-lg z-50 overflow-y-auto">
 
       <!-- Add margin if you want to see some of the overlay behind the modal-->
       <div class="modal-content relative bg-white">
@@ -46,13 +46,13 @@
 
         <!--Body-->
 
-        <div class="px-16 pt-8 flex flex-col gap-4">
-          <p class="quote text-3xl uppercase text-center">Newsletter</p>
-          <p>Si quieres recibir en tu correo novedades, exposiciones, talleres, recomendaciones y algunas reflexiones, apúntate a mi newsletter y no dejes que el algoritmo decida por ti.</p>
-          <p class="text-center">¿Te vienes?</p>
+        <div class="px-16 pt-8 flex flex-col gap-4 text-center">
+          <p class="quote text-3xl uppercase">Newsletter</p>
+          <p class="">Si quieres recibir en tu correo novedades, exposiciones, talleres, recomendaciones y algunas reflexiones, apúntate a mi newsletter y no dejes que el algoritmo decida por ti.</p>
+          <p>¿Te vienes?</p>
         </div>
 
-        <iframe src="https://a19070b2.sibforms.com/serve/MUIEAJKIVx1pzPhR12t8BX7YtOAaB1Nz-oO0UbExpXswN6z1Ks2sbd5mVdVwE4eX8DQHvue9i5aAbRNcqEeSg5mZ9MmC95tMCr3rjTop3KYcJh2Qy9KYshTbEkfPoKX_pVRsiNT4GINTFuLrg3CvFqGmZQW2mE6UKcJOD2UF68kAsXBG0L0oTP1UCfhzQCuz3A2LjIMbRYghudki" frameborder="0" scrolling="auto" allowfullscreen style="width:100%; height:450px; display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+        <iframe src="https://a19070b2.sibforms.com/serve/MUIFADe_mfrSmN9rhSOnPQhsl0S8RyowzrJSpuf3GmC4EkR3U-6Kq_tzkD5V5YklMrOz3DZk960QdrhfUyVJ-LaaUssfofGAAxZEg7wHMNSPdTDfcGgYLYVGyGxTKtcX0V9vcSRo2ya6WDzxWuKIO8YCFUQre4S6cvuQl2OHvR6kqs_7W9hBJhTduSEVHuGjCViPuB3S5jcC_c4d" frameborder="0" scrolling="auto" allowfullscreen style="width:100%; height:450px; display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 
         <!--Footer-->
         <!-- <div class="flex justify-end pt-2">
