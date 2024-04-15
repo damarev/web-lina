@@ -8,7 +8,7 @@
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">El hilo de la memoria</p>
-    <p>Esta instalación procesual es el resultado de uno de mis proyectos, realizado durante mi residencia en El Telart, Santa María del Berrocal. Desarrollada a partir de un trabajo de registro e investigación, esta pieza plasma la esencia del trabajo manual, el entorno doméstico y la tradición textil del municipio.</p>
+    <p>Esta instalación procesual es el resultado de uno de mis proyectos, realizado durante mi residencia en <a href="https://eltelart.org/" target="_blank">El Telart</a>, Santa María del Berrocal. Desarrollada a partir de un trabajo de registro e investigación, esta pieza plasma la esencia del trabajo manual, el entorno doméstico y la tradición textil del municipio.</p>
     <p>La base de la obra, compuesta principalmente por papel y cola, materiales habituales en mi trayectoria, se fusiona de manera armoniosa con elementos recuperados, encontrados en la antigua nave de confección, como el textil y periódicos que evocan la historia del propio edificio. A esto elementos hilvanados, se les une una antigua devanadera, pieza original testigo de la historia del pueblo y su comarca. El conjunto crea una narrativa visual que trasciende lo tangible, invitando a profundizar en la memoria colectiva.</p>
 </div>
 

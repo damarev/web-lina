@@ -68,7 +68,7 @@
     <div class="px-5 flex flex-col justify-center prosed">
         <p>Estas flores ramificadas que crecen a modo de crónica visual recogen las diferentes olas de la enfermedad. Las hojas y los pétalos fueron cuidadosamente seleccionados, para que capturaran palabras e imágenes que marcaron aquellos tiempos, con la finalidad de ser testimonio de lo sucedido, generando un flashback visual.</p>
         <p>Tomando la conexión consustancial entre ser humano y naturaleza, junto con el papel como base de mi obra, este trabajo presenta a la misma como símbolo y vehículo que nos conecta con la vida y la capacidad de resurgir desde una experiencia traumática.</p>
-        <p class="text-sm">Proyecto expuesto en Arte Efímero, Madrid, en mayo y junio de 2021, en Art Battalion vol. 5, en bajos del Edificio España, Madrid, en septiembre de 2021 y HYBRID Art Fair 2022 con la galería LAECLÉCTICA.</p>
+        <p class="text-sm">Proyecto expuesto en Arte Efímero, Madrid, en mayo y junio de 2021, en Art Battalion vol. 5, en bajos del Edificio España, Madrid, en septiembre de 2021 y HYBRID Art Fair 2022 con la galería LAECLÉCTICA, comisariado por Andrea Perissinotto.</p>
     </div>
 </div>
 

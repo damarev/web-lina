@@ -61,6 +61,7 @@
 		<dd>
 			<ul>
 				<li><b>The Stendhal Room</b>, «Mi propia guerra», comisariada por Mujeres que cortan y pegan. Madrid.</li>
+				<li><b>La Musa</b>, «Musas», comisariada por Marisa Maestre. Fuenlabrada, Madrid.</li>
 			</ul>
 		</dd>
 		<dt>2023</dt>

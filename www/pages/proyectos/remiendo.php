@@ -8,7 +8,7 @@
 
 <div class="max-w-4xl mx-auto px-5 py-6 my-6 prosed">
     <p class="quote text-2xl uppercase">Remiendo</p>
-    <p>Esta instalación fue gestada y desarrollada durante mi residencia en El Telart, transformando uno de los muros del antiguo taller de confección en el municipio de Santa María del Berrocal. Como su nombre indica, esta obra, de más de 3 m de ancho x 70 cm de alto, no solo repara grietas y agujeros, sino que se convierte en un acto poético de recomposición que desafía los estragos del tiempo.</p>
+    <p>Esta instalación fue gestada y desarrollada durante mi residencia en <a href="https://eltelart.org/" target="_blank">El Telart</a>, transformando uno de los muros del antiguo taller de confección en el municipio de Santa María del Berrocal. Como su nombre indica, esta obra, de más de 3 m de ancho x 70 cm de alto, no solo repara grietas y agujeros, sino que se convierte en un acto poético de recomposición que desafía los estragos del tiempo.</p>
 </div>
 
 <div class="flex gap-5 my-6">
