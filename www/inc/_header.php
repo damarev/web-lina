@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo get_page_title(); ?></title>
-    <link href="/styles.css" rel="stylesheet">
+    <link href="/styles.css?v=1" rel="stylesheet">
     <link rel="icon" type="image/png" href="/favicon-lina-avila.png" sizes="180x180">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -33,7 +33,10 @@
         <a href="/">
             <img src="/img/firma-logo-lina-avila.png" class="fixed h-12 top-[4px] left-1/2 -translate-x-1/2">
         </a>
-        <button class="btn-subscribe float-right mr-4 mt-3 hidden sm:inline-block" data-toggle="modal" data-target="#subscribe">SUSCRÍBETE</button>
+        <button class="btn-subscribe float-right mr-4 mt-3 inline-block px-2 sm:px-4" data-toggle="modal" data-target="#subscribe">
+            <span class="hidden sm:inline">NEWSLETTER</span>
+            <span class="sm:hidden">NEWS</span>
+        </button>
         <div id="btn-toggle-nav" class="btn-toggle-nav cursor-pointer">
             <div class="icon"></div>
         </div>

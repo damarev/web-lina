@@ -629,8 +629,8 @@ a:hover {
   background-color: rgb(255 255 255 / 0.2);
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.1em;
@@ -1048,8 +1048,8 @@ a:hover {
   width: 25.4%;
 }
 
-.max-w-\[30rem\] {
-  max-width: 30rem;
+.max-w-\[35rem\] {
+  max-width: 35rem;
 }
 
 .max-w-none {
@@ -1102,10 +1102,6 @@ a:hover {
 
 .max-w-sm {
   max-width: 24rem;
-}
-
-.max-w-\[35rem\] {
-  max-width: 35rem;
 }
 
 .grow {
@@ -2274,6 +2270,10 @@ dl.years {
     display: inline-block;
   }
 
+  .sm\:inline {
+    display: inline;
+  }
+
   .sm\:hidden {
     display: none;
   }
@@ -2300,6 +2300,11 @@ dl.years {
 
   .sm\:gap-0 {
     gap: 0px;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .sm\:px-0 {

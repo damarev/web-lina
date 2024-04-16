@@ -15,7 +15,7 @@
   <div class="w-1/2 md:w-1/4 md:order-1">
     <h3 class="tracking-widest font-bold text-sm uppercase font-['Montserrat'] mb-4">Contacto</h3>
     <p class="flex gap-3 justify-center">
-      <a href="javascript:window.location.href=atob('<?= base64_encode("mailto:collagerepublic@gmail.com") ?>')" class="transition duration-300"><?php echo svg('email', 'w-10 h-10'); ?></a>
+      <a href="javascript:window.location.href=atob('<?= base64_encode("mailto:hola@lina-avila.com") ?>')" class="transition duration-300"><?php echo svg('email', 'w-10 h-10'); ?></a>
     </p>
   </div>
   <div class="w-1/2 md:w-1/4 md:order-3">
@@ -25,7 +25,7 @@
       <a href="https://es.linkedin.com/in/lina-%C3%A1vila-serrano-944b83159" class="transition duration-300"><?php echo svg('linkedin', 'w-8 h-8'); ?></a>
       <a href="https://vimeo.com/user86699386" class="transition duration-300"><?php echo svg('vimeo', 'w-8 h-8'); ?></a>
     </p>
-    <button class="btn-subscribe my-4" data-toggle="modal" data-target="#subscribe">SUSCRÍBETE</button>
+    <button class="btn-subscribe my-4" data-toggle="modal" data-target="#subscribe">NEWSLETTER</button>
   </div>
 </footer>
 
