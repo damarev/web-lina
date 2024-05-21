@@ -17,6 +17,12 @@
 	<h2 class="section-title my-16">Exposiciones Individuales</h2>
 
 	<dl class="years">
+		<dt>2024</dt>
+		<dd>
+			<ul>
+				<li><b>LAECLÉCTICA</b>, <i>Entre líneas</i>. Huelva.</li>
+			</ul>
+		</dd>
 		<dt>2023</dt>
 		<dd>
 			<ul>
@@ -60,6 +66,8 @@
 		<dt>2024</dt>
 		<dd>
 			<ul>
+				<li><b>La Quinta del Sordo</b>, «Okupa la quinta». Madrid.</li>
+				<li><b>pequeña GALERÍA</b>, «Colorama». Madrid.</li>
 				<li><b>The Stendhal Room</b>, «Mi propia guerra», comisariada por Mujeres que cortan y pegan. Madrid.</li>
 				<li><b>La Musa</b>, «Musas», comisariada por Marisa Maestre. Fuenlabrada, Madrid.</li>
 			</ul>

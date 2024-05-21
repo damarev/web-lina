@@ -20,7 +20,7 @@
 
 <div class="max-w-[52rem] mx-auto mt-20 px-5">
 
-	<ul class="list-circle [&_a]:italic [&_a]:font-bold ">
+	<ul class="list-circle [&_a]:italic [&_a]:font-bold">
 		<li>DIARIO DE ÁVILA: <a target="_blank" href="https://www.diariodeavila.es/noticia/zef3b6808-b229-8b33-3a201cf1b01a4af7/202308/telart-redescubre-la-tradicion-de-santa-maria-del-berrocal">El Telart redescubre la tradición de Santa María del Berrocal</a>, 21/08/2023</li>
 		<li>ÁVILA RED: <a target="_blank" href="https://avilared.com/art/71358/la-residencia-de-arte-el-telart-muestra-sus-trabajos-en-una-exposicion">Creaciones de la residencia de arte El Telart reflejan la memoria textil de un pueblo</a>, 18/08/2023 </li>
 		<li>ÁVILA RED: <a target="_blank" href="https://avilared.com/art/71066/cinco-artistas-en-residencia-artistica-en-el-valle-del-corneja">Cinco artistas en la residencia artística en el Valle de la Corneja</a>, 30/07/2023</li>
@@ -40,7 +40,7 @@
 		<li>KM0.COOL: <a target="_blank" href="https://km0.cool/blog/aparecida-collage-republic/">aparecida #6: Collage Republic</a> 30/04/2021</li>
 		<li>VII ED. MUJERES MIRANDO MUJERES: <a target="_blank" href="https://mujeresmirandomujeres.com/lina-avila-marta-martinez-mmm/">Lina Ávila. El sonido del papel</a> 9/04/2021</li>
 		<li>PAC | Plataforma de Arte Contemporáneo: <a target="_blank" href="https://www.plataformadeartecontemporaneo.com/pac/bowie-devotion/">Bowie Devotion</a>, 18/01/2021</li>
-		<li>GODART LAB, <a target="_blank" href="https://godartlab.com/2020/04/23/autoedicion-inspiracion-especial-dia-de-libro-en-cuarentena/">Autoedición | Día de Libro en cuarentena</a>, 23/04/2020:</li>
+		<li>GODART LAB, <a target="_blank" href="https://godartlab.com/2020/04/23/autoedicion-inspiracion-especial-dia-de-libro-en-cuarentena/">Autoedición | Día de Libro en cuarentena</a>, 23/04/2020</li>
 		<li>LE COOL: <a target="_blank" href="https://madrid.lecool.com/inspirations/lina-avila-collage-republic/">Inspiración | Colaboración en cuarentena</a>, marzo 2020</li>
 		<li>YANMAG: <a target="_blank" href="http://www.yanmag.com/lina-avila-artista-visual/">Lina Ávila, artista visual, Con el arte me planteo preguntas</a>, 27/11/2019</li>
 		<li>GODART LAB: <a target="_blank" href="https://godartlab.com/2019/11/25/el-jardin-secreto-de-javier-jimeno-y-lina-avila/">El jardín secreto de Javier Jimeno y Lina Ávila</a>, 25/11/2019</li>
