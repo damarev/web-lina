@@ -73,13 +73,15 @@
 </div>
 
 <div class="flex">
-    <div  class="w-[37.3%]">
+    <div class="w-[37.3%]">
         <img src="/img/proyectos/entre-lineas/12-entre-lineas.jpg" alt="">
     </div>
-    <div  class="w-[37.3%]">
+    <div class="w-[37.3%]">
         <img src="/img/proyectos/entre-lineas/13-entre-lineas.jpg" alt="">
     </div>
-    <div  class="w-[25.4%]">
+    <div class="w-[25.4%]">
         <img src="/img/proyectos/entre-lineas/14-entre-lineas.jpg" alt="">
     </div>
 </div>
+
+<iframe class="max-w-4xl w-full mx-auto my-12 px-6 aspect-video" src="https://www.youtube-nocookie.com/embed/WYCU3BMUXDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; picture-in-picture;" allowfullscreen></iframe>

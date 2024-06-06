@@ -31,21 +31,21 @@ $proyectos = [
 
 function getRouteFromPath($path)
 {
-    $path = ltrim($path, '/');
-    if($path == '') return 'home';
-    return $path;
+	$path = ltrim($path, '/');
+	if ($path == '') return 'home';
+	return $path;
 }
 
 function route($slug)
 {
-	if($slug == 'home') return '/';
-    return "/{$slug}";
+	if ($slug == 'home') return '/';
+	return "/{$slug}";
 }
 
 function is_current_page($slug)
 {
 	global $route;
-    return $route === $slug;
+	return $route === $slug;
 }
 
 function get_page_title()
@@ -53,9 +53,9 @@ function get_page_title()
 	global $route, $routes, $proyectos;
 	$tag = 'Lina Ávila';
 
-	if($route === 'home') return "{$tag}";
-	if(isset($routes[$route])) return $routes[$route][0] . " - {$tag}";
-	if(isset($proyectos[$route])) return $proyectos[$route][0] . " - {$tag}";
+	if ($route === 'home') return "{$tag}";
+	if (isset($routes[$route])) return $routes[$route][0] . " - {$tag}";
+	if (isset($proyectos[$route])) return $proyectos[$route][0] . " - {$tag}";
 	return '';
 }
 
@@ -86,7 +86,7 @@ function buffer($path, $data = [])
 
 function dev()
 {
-	if(!isDev()) return;
+	if (!isDev()) return;
 
 	$scripts = [
 		''
@@ -109,16 +109,16 @@ function navProyects($current)
 	global $proyectos;
 
 	$keys     = array_keys($proyectos);
-    $position = array_search($current, $keys);
+	$position = array_search($current, $keys);
 
 	$prevIndex = $position - 1;
 	$nextIndex = $position + 1;
 
-	if($prevIndex < 0) {
+	if ($prevIndex < 0) {
 		$prevIndex = count($keys) - 1;
 	}
 
-	if($nextIndex >= count($keys)) {
+	if ($nextIndex >= count($keys)) {
 		$nextIndex = 0;
 	}
 
@@ -129,4 +129,38 @@ function navProyects($current)
 
 	$content = buffer(__DIR__ . "/./_nav-proyects.php", $data);
 	return $content;
+}
+
+function getMenciones()
+{
+	$lines = file('./content/menciones.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	$lines = array_map('trim', $lines);
+	return array_chunk($lines, 4);
+}
+
+function parseExpo($file)
+{
+	$lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	$lines = array_map('trim', $lines);
+	$data = [];
+	$year = null;
+	foreach ($lines as $line) {
+		if (is_numeric($line)) {
+			$year = $line;
+			$data[$year] = [];
+		} else {
+			$data[$year][] = $line;
+		}
+	}
+	return $data;
+}
+
+function getIndividuales()
+{
+	return parseExpo('./content/exposiciones_individuales.txt');
+}
+
+function getColectivas()
+{
+	return parseExpo('./content/exposiciones_colectivas.txt');
 }
