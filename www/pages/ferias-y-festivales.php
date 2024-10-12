@@ -46,7 +46,7 @@
 				<li><b>Lírica al Margen Festival</b>. Sala Mayko | Galería Vision Ultravioleta, Madrid.</li>
 				<li><b>Madrid Gráfica’ 21</b>. «Re_» (obra gráfica), Matadero Madrid | Plaza de Oriente, Madrid.</li>
 				<li><b>5ª Edición HYBRID Festival</b>, «Emergencia», exposición online comisariada por Ludovica Cadario.</li>
-				<li><b>Eros Street Festival</b>, «El jardín secreto». Museo Europeo de Arte Europeo, Barcelona.</li>
+				<li><b>Eros Street Festival</b>, «El jardín secreto». Museo Europeo de Arte Moderno, Barcelona.</li>
 			</ul>
 		</dd>
 		<dt>2020</dt>
